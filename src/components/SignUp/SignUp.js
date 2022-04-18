@@ -34,15 +34,10 @@ const SignUp = () => {
     event.preventDefault();
     if (password !== confirmPassword) {
       setError("Your two password didn't match");
-      console.log("didn't match");
-      console.log(password);
-      console.log(confirmPassword);
       return;
     }
 
     if (password.length < 7) {
-      console.log(password);
-      console.log(password.length);
       setError("Password must be six characters or longer");
     }
 

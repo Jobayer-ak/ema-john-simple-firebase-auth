@@ -8,7 +8,8 @@
  * 7. react firebase hooks install (npm install --save react-firebase-hooks)
  * 8. useCreateUserWithEmailAndPassword from react-firebase-hooks
  * 9. if user is created redirect to the expected page
- * 10.
+ * 10. useSignInWithEmailAndPassword for sign In
+ * 11.
  */
 
 /**
