@@ -34,6 +34,7 @@ const SignUp = () => {
     event.preventDefault();
     if (password !== confirmPassword) {
       setError("Your two password didn't match");
+
       return;
     }
 
